@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Form Show Password Strength </title>
+    
+    <meta name="description" content="Website form showing password strength">
+    <meta name="author" content="SitePoint">
+
+    <meta property="og:title" content="Form Show Password Strength">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/fabiikelvans">
+    <meta property="og:description" content="Website form showing password strength.">
+    <meta property="og:image" content="image.png">
+
+    <!----------- FAVICON ------------>
+    <link rel="icon" href="assets/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <!----------- BOXICONS ------------>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!----------- MAIN CSS ------------>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <div class="input-box">
+                <input type="password" id="password" placeholder="Enter Password">
+                <button type="submit"><i class='bx bxs-right-arrow-circle'></i></button>
+                <p id="message">Password is <span id="strength"></span></p>
+            </div>
+        </div>
+    </main>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
